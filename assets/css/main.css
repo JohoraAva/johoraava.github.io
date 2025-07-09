@@ -188,20 +188,29 @@ h6 {
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img {
+    position: relative;
+    text-align: center;
+}
+
 .single-about-img:before {
-    position:  absolute;
+    position: absolute;
     content: " ";
     top: 0;
-    left:  0;
+    left: 0;
     width: 109%;
-    height:  100%;
-    background: rgba(31,44,108,.3);
+    height: 100%;
+    z-index: 0;
 }
+
 .single-about-img img {
     max-width: 500px;
     height: 468px;
+    display: inline-block;
+    position: relative;
+    z-index: 1; /* keep image above the :before layer */
 }
+
 .about-list-icon{
     display: flex;
     justify-content: center;
@@ -640,9 +649,9 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 1px solid color-mix(in srgb, var(--default-color), transparent 50%);
+  border: 1px ;
   font-size: 16px;
-  color: color-mix(in srgb, var(--default-color), transparent 50%);
+  color: #a1a199 ;
   margin: 0 5px;
   transition: 0.3s;
 }
