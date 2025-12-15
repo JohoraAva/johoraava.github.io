@@ -1740,3 +1740,23 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+ul.grad-course-list {
+  list-style-type: disc;       /* bullet type */
+    padding-left: 1.5rem;        /* space from the left */
+    margin: 0 0 1rem 0;          /* spacing around list */
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;            /* spacing between items */
+    color: #333;
+}
+
+ul.grad-course-list ul {
+   list-style-type: circle;     /* different bullet for sub-items */
+    padding-left: 1.2rem;
+}
+
+ul.grad-course-list li {
+    margin-bottom: 0.5rem;      /* space between list items */
+    color: #007acc;  
+}
