@@ -53,6 +53,7 @@ const INFO_ITEMS = [
   },
   { icon: '🔬', text: 'Cybersecurity · Formal Methods · 5G Security . IoT Security' },
   { icon: '🧠', text: 'ENTJ-T' },
+  // { icon: '🇧🇩', text: 'Bangladesh' },
   { icon: '✈️', text: 'Traveling · Photography · K-Dramas' },
   {
     icon: '📧',
@@ -82,7 +83,7 @@ export default function Sidebar() {
 
         <div className="space-y-0.5">
           <h2 className="text-base font-bold text-slate-800 leading-snug">Fatema Tuj Johora</h2>
-          <p className="text-blue-600 font-semibold text-sm">Ava</p>
+          <p className="text-blue-600 font-semibold text-sm">Ava 🇧🇩</p>
           <p className="text-slate-500 text-xs mt-1">Ph.D. Student · Computer Science</p>
           <p className="text-slate-400 text-xs">
             <a href="https://www.utdallas.edu/" target="_blank" rel="noreferrer" className="hover:text-blue-500 transition-colors">UT Dallas</a>

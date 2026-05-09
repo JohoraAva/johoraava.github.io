@@ -167,7 +167,7 @@ export default function About() {
             .sort(([a], [b]) => Number(b) - Number(a))
             .map(([year, items]) => (
               <div key={year} className="card p-5 flex flex-col gap-3">
-                <span className="text-xs font-bold text-orange-500 uppercase tracking-widest border-b border-slate-200 pb-2">
+                <span className="text-l font-black text-purple-500 uppercase tracking-widest border-b border-slate-200 pb-2">
                   {year}
                 </span>
                 <ul className="space-y-3">

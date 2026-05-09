@@ -125,15 +125,18 @@ export default function Footer() {
             © 2025 Fatema Tuj Johora. All rights reserved.
           </p>
 
-          {/* Logo — bottom-right corner */}
-          <a href="#home" className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-            <img
-              src="/img/chick-logo.png"
-              alt="JA"
-              className="w-7 h-7 rounded-full object-cover ring-1 ring-slate-600"
-            />
-            {/* <span className="text-xs text-slate-500 font-medium">Johora Ava</span> */}
-          </a>
+          {/* Logos — bottom-right corner */}
+          <div className="flex items-center gap-3 opacity-60 hover:opacity-100 transition-opacity">
+            <a href="#home">
+              <img src="/img/chick-logo.png" alt="Johora Ava" className="w-7 h-7 rounded-full object-cover ring-1 ring-slate-600 saturate-150" />
+            </a>
+            <a href="https://sysnets.github.io/" target="_blank" rel="noreferrer">
+              <img src="/img/sysnets.png" alt="SysNetS Lab" className="h-7 w-auto object-contain brightness-0 invert" />
+            </a>
+            <a href="https://www.utdallas.edu/" target="_blank" rel="noreferrer">
+              <img src="/img/utd2.png" alt="UT Dallas" className="h-7 w-auto object-contain saturate-150" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
