@@ -1,6 +1,29 @@
+import { useState, useEffect } from 'react'
 import SectionHeader from './SectionHeader'
 
+// function playFaaaah() {
+//   try {
+//     new Audio('/img/faaah.mp3').play()
+//   } catch (_) {}
+// }
+
 export default function Publications() {
+  // const [loading, setLoading] = useState(true)
+
+  // useEffect(() => {
+  //   playFaaaah()
+  //   const timer = setTimeout(() => setLoading(false), 5000)
+  //   return () => clearTimeout(timer)
+  // }, [])
+
+  // if (loading) {
+  //   return (
+  //     <div className="flex items-center justify-center py-32">
+  //       <img src="/img/Loading_icon.gif" alt="Loading…" className="w-32 h-32" />
+  //     </div>
+  //   )
+  // }
+
   return (
     <section id="publications" className="py-20 bg-slate-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
