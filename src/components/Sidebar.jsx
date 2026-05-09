@@ -117,7 +117,7 @@ export default function Sidebar() {
           ))}
         </div>
 
-        <a href="/img/CV.pdf" download className="btn-primary text-xs px-4 py-2 w-full">
+        <a href="https://www.overleaf.com/read/gsrfqrzftbtx#25f9fc" target="_blank" rel="noreferrer" className="btn-primary text-xs px-4 py-2 w-full">
           Download CV
         </a>
       </div>

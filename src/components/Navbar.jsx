@@ -4,7 +4,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center">
         <a href="#" className="flex items-center gap-2.5">
           <img
-            src="/img/JA_logo.jpg"
+            src="/img/chick-logo.png"
             alt="JA"
             className="w-8 h-8 rounded-full object-cover ring-2 ring-blue-400/60"
           />

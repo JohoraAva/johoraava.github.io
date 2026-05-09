@@ -128,11 +128,11 @@ export default function Footer() {
           {/* Logo — bottom-right corner */}
           <a href="#home" className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
             <img
-              src="/img/JA_logo.jpg"
+              src="/img/chick-logo.png"
               alt="JA"
               className="w-7 h-7 rounded-full object-cover ring-1 ring-slate-600"
             />
-            <span className="text-xs text-slate-500 font-medium">Johora Ava</span>
+            {/* <span className="text-xs text-slate-500 font-medium">Johora Ava</span> */}
           </a>
         </div>
       </div>

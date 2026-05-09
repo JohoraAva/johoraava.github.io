@@ -31,7 +31,7 @@ export default function App() {
               onClick={() => setActiveTab(id)}
               className={`flex-1 px-4 py-2.5 text-sm font-semibold rounded-lg whitespace-nowrap transition-all duration-200 ${
                 activeTab === id
-                  ? 'bg-purple-400 text-white shadow-md'
+                  ? 'bg-purple-500 text-white shadow-md'
                   : 'text-purple-700 hover:bg-purple-200'
               }`}
             >
